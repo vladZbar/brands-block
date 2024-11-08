@@ -1,0 +1,346 @@
+@media (min-width:0px) and (max-width:767px) {
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 767px;
+  }
+
+  body {
+    background-color: #F8F8F8;
+  }
+
+
+  .brands-header {
+    height: 80px;
+    width: 100%;
+    padding: 16px;
+    border-top: 1px solid #D9FFF5;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    font-family: 'TT lakes';
+  }
+
+  .brands-header__title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    font-weight: 400;
+    min-width: 288px;
+  }
+
+  .brand-container {
+    padding: 16px;
+    min-width: 0;
+    padding-right: 0;
+  }
+
+  .brand-list {
+    display: none;
+  }
+
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+  .swiper {
+    /* width: 320px; */
+    height: 112px;
+    /* margin-top: 16px;
+    margin-left: 16px; */
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
+
+  .swiper-scrollbar {
+    display: none;
+  }
+
+
+  .swiper-pagination-bullet {
+    background: #B5B6BC;
+    height: 12px;
+    width: 12px;
+  }
+
+  .swiper {
+    position: relative;
+  }
+
+  .swiper::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 81px;
+    width: 24px;
+    top: -10px; 
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  }
+
+  .brand-list__item { 
+    min-width: 224px;
+    height: 72px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+  }
+
+  .list-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .list-content__icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: url(..//images/icons/rightArrow.svg) no-repeat 50% 50%;
+    border: 2px solid #FF3E79;
+  }
+
+  .list-content__logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+  }
+
+  .list-content__logo-apple {
+    margin-top: -5px;
+  }
+
+  .brand-button {
+    display: none;
+  }
+}
+
+@media (min-width:767px) and (max-width:1119px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1120px;
+  }
+
+  body {
+    background-color: #F8F8F8;
+  }
+
+  .swiper {
+    display: none;
+  }
+
+  .brands-header {
+    height: 56px;
+    width: 100%;
+    padding: 16px 24px;
+    border-top: 1px solid #D9FFF5;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    font-family: 'TT lakes';
+  }
+
+  .brands-header__title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    font-weight: 400;
+    min-width: 288px;
+  }
+  
+  .brand-container {
+    padding: 24px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .brand-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 21px;
+    overflow: hidden;
+    height: 162px;
+  }
+
+  .brand-list__item { 
+    min-width: 224px;
+    height: 72px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+  }
+
+
+  .list-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .list-content__icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: url(..//images/icons/rightArrow.svg) no-repeat 50% 50%;
+    border: 2px solid #FF3E79;
+  }
+
+  .list-content__logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+  }
+
+  .list-content__logo-apple {
+    margin-top: -8px;
+  }
+
+  .brand-button {
+    color:#1B1C21;
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    padding-top: 24px;
+    max-width: max-content;
+  }
+
+  .brand-button__icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .brand-button__arrow {
+    transition: 0.3s;
+    background: url(../images/icons/expand.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+
+  .brand-button__arrow--down {
+    transform: rotate(180deg);
+  }
+}
+
+@media (min-width:1120px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+  }
+
+  body {
+    background-color: #F8F8F8;
+  }
+
+  .swiper {
+    display: none;
+  }
+
+  .brands-header {
+    height: 56px;
+    width: 100%;
+    padding: 16px 32px;
+    border-top: 1px solid #D9FFF5;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF);
+    font-family: 'TT lakes';
+  }
+
+  .brands-header__title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    font-weight: 400;
+    min-width: 288px;
+  }
+  
+  .brand-container {
+    padding: 32px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .brand-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 30px;
+    overflow: hidden;
+    height: 162px;
+  }
+
+  .brand-list__item { 
+    min-width: 240px;
+    height: 72px;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+  }
+
+  .list-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+
+  .list-content__icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: url(..//images/icons/rightArrow.svg) no-repeat 50% 50%;
+    border: 2px solid #FF3E79;
+  }
+
+  .list-content__logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+  }
+
+  .list-content__logo-apple {
+    margin-top: -8px;
+  }
+
+  .brand-button {
+    color:#1B1C21;
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    padding-top: 24px;
+    max-width: max-content;
+  }
+
+  .brand-button__icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .brand-button__arrow {
+    transition: 0.3s;
+    background: url(../images/icons/expand.svg) no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+
+  .brand-button__arrow--down {
+    transform: rotate(180deg);
+  }
+}
