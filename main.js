@@ -14,7 +14,7 @@ new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
   
-  slidesPerView: 1.25,
+  slidesPerView:'auto',
   spaceBetween: 16,
 });
 
