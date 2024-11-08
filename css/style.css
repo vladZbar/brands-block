@@ -37,13 +37,12 @@
   .brand-list {
     display: none;
   }
-
-  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
   .swiper {
-    /* width: 320px; */
     height: 112px;
-    /* margin-top: 16px;
-    margin-left: 16px; */
+  }
+
+  .swiper-slide {
+    width: 224px;
   }
 
   .swiper-button-prev, .swiper-button-next {
