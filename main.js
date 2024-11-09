@@ -1,6 +1,8 @@
+
+function initialSwiper () {
 new Swiper('.swiper', {
   loop: true,
-  
+
   pagination: {
     el: '.swiper-pagination',
   },
@@ -17,6 +19,8 @@ new Swiper('.swiper', {
   slidesPerView:'auto',
   spaceBetween: 16,
 });
+}
+window.innerWidth < 768 ? initialSwiper() : null;
 
 let brands = document.querySelector('.brand-list');
 let button = document.querySelector('.brand-button');
